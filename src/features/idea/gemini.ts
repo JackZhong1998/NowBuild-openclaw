@@ -133,7 +133,7 @@ export const geminiService = {
         },
       },
     });
-    const res = response as Record<string, unknown>;
+    const res = response as unknown as Record<string, unknown>;
     const candidates = res?.candidates as Array<Record<string, unknown>> | undefined;
     const part = candidates?.[0]?.content as Record<string, unknown> | undefined;
     const parts = part?.parts as Array<Record<string, unknown>> | undefined;
