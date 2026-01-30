@@ -1,0 +1,7 @@
+{
+  "name": "NowBuild-想法对话",
+  "description": "A digital Swiss-style AI co-founder platform helping users build startups through modular AI agents: a Mentor, an MBA Assistant, and an Investor.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
